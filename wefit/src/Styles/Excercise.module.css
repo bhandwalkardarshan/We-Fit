@@ -1,0 +1,67 @@
+.muscle {
+  z-index: 2;
+  position: relative;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  height: 100%;
+  gap: 16px;
+  padding-top: 20px;
+}
+.muscle > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.muscle button,
+.singlebtn > button,
+.searchbtn {
+  font-size: 12px;
+  height: 35px;
+  background-color: rgb(33, 144, 199);
+  color: white;
+  transition: 0.3s;
+}
+.muscle button:hover,
+.singlebtn > button:hover {
+  background-color: rgb(33, 110, 199);
+  box-shadow: rgba(1, 136, 255, 0.719) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  transform: scale(1.2);
+}
+.muscleimg {
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  height: 100%;
+  position: absolute;
+}
+.flex label {
+  margin-left: 5px;
+}
+.flex {
+  margin-top: 10px;
+}
+.active>a {
+    color: blue;
+}
+.filtermenu {
+    color:black;
+}
+.buttons>a:hover {
+  color: rgb(33, 110, 199);
+  font-weight: 600;
+}
+.bgcolor:nth-of-type(even) {
+  background-color: rgb(255, 255, 255);
+}
+.text p {
+  font-size:13px;
+  cursor:pointer;
+}
+.text>div {
+  justify-content: space-between;
+}
+.text>div:hover {
+  color: rgb(33, 110, 199);
+  font-weight: 600;
+}
